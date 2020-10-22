@@ -1,0 +1,19 @@
+.small-table {
+  overflow: scroll !important;
+}
+
+.full-width-table {
+    width: 100%;
+}
+
+::ng-deep .mat-sort-header-container {
+  display:flex;
+  justify-content:center;
+  text-align: center;
+  font-size: 20px;
+}
+
+::ng-deep .mat-cell {
+  font-size: 16px !important;
+}
+
