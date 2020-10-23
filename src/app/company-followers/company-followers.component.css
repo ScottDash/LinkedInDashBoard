@@ -1,5 +1,6 @@
 .small-table {
   overflow: scroll !important;
+  max-height: 500px;
 }
 
 .full-width-table {
