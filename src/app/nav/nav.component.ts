@@ -12,7 +12,7 @@ export class NavComponent {
 
   menuItems = ['LinkedIn']
 
-  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
+  isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.XSmall)
     .pipe(
       map(result => result.matches),
       shareReplay()
