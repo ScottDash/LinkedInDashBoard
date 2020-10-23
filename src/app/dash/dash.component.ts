@@ -15,15 +15,15 @@ export class DashComponent {
         return {
           columns: 1,
           //miniCard: { cols: 1, rows: 1 },
-          //chart: {cols: 1, rows: 2 },
-          table: { cols: 1, rows: 3 }
+          chart: {cols: 1, rows: 1 },
+          table: { cols: 1, rows: 4 }
         };
       }
 
       return {
         columns: 4,
         //miniCard: { cols: 1, rows: 1},
-        //chart: { cols: 2, rows: 2 },
+        chart: { cols: 4, rows: 2 },
         table: { cols: 4, rows: 3 }
       };
     })
