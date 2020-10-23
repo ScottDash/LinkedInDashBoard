@@ -15,7 +15,7 @@ export class DashComponent {
         return {
           columns: 1,
           //miniCard: { cols: 1, rows: 1 },
-          chart: {cols: 1, rows: 1 },
+          chart: { cols: 1, rows: 2 },
           table: { cols: 1, rows: 4 }
         };
       }

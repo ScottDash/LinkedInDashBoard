@@ -12,13 +12,7 @@ export class StoreSessionsChartComponent implements OnInit {
 
   public barChartOptions: ChartOptions = {
     responsive: true,
-    scales: { xAxes: [{}], yAxes: [{}] },
-      plugins: {
-        datalabels: {
-          anchor: 'end',
-          align: 'end',
-      }
-    }
+    maintainAspectRatio: false
   };
 
   public barChartLabels: Label[] = [];
